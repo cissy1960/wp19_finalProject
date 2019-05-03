@@ -1,0 +1,17 @@
+ <label>Age </label> <br />
+    <input type="radio" name="age" value="0-2"   /> 0 - 2 year  <br />
+    <input type="radio" name="age" value="3-4"  /> 3 year - 4 year<br />
+	<input type="radio" name="age" value="5-6" /> 5 year - 6 year<br />
+	<input type="radio" name="age" value="7 " /> 7+ <br />
+	
+	
+	<label> Gender </label>
+    <select name="gender">
+        <option>Female</option>
+        <option>Male</option>
+    </select><br />
+	
+	
+	<label>Birthdate</label>
+    <input type="text" name="birthdate" /><br />
+	<br />
