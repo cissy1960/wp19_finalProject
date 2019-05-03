@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	$email = $_POST['coemail'];
 	
 	$sql = file_get_contents('sql/getContacts.sql');
-	$params()
+	$params();
 	$statement = $database->prepare($sql);
 	$statement->execute();
 	$contacts = $statement->fetchAll(PDO::FETCH_ASSOC);
